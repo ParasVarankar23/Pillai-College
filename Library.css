@@ -1,0 +1,53 @@
+.library-container {
+    padding: 20px;
+}
+
+.library-image, .collection-image, .team-image {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+.library-description {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.collection-table, .team-table, .timing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.collection-table th, .collection-table td,
+.team-table td,
+.timing-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.collection-table th {
+    background-color: #f4f4f4;
+}
+
+.service-list, .request-procedure {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 20px;
+}
+
+h1 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3, h4 {
+    color: #555;
+}

@@ -1,0 +1,55 @@
+.payment-list-page-container {
+    padding: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 920px;
+    width: auto;
+}
+
+.payment-list-page {
+    padding: 20px;
+}
+
+.payment-list-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-arrow {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.payment-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payment-list-table th,
+.payment-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.payment-list-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.payment-list-table td button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.payment-list-table td button:hover {
+    color: #007bff;
+}

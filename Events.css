@@ -1,0 +1,40 @@
+.events-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.event-section {
+    margin-bottom: 40px;
+}
+
+.event-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.event-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.event-description {
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px auto;
+    margin-left: 5px;
+    max-width: 800px;
+}
+
+.event-video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}

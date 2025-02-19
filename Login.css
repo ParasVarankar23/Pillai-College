@@ -1,0 +1,86 @@
+.login-container {
+    display: flex;
+    width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.left-image-login {
+    flex: 1;
+}
+
+.login-campus-image {
+    width: 850px;
+    height: 550px;
+    object-fit: cover;
+    margin:5px;
+    border-radius: 5px;
+}
+
+.main-login {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    width:350px;
+    height:400px;
+    margin:5px;
+    border-radius: 8px;
+    border: 2px solid grey;
+}
+
+.logo-login {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: rgb(200, 49, 49);
+    margin-bottom: 20px;
+}
+
+.text-login input {
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.button-login {
+    width: 100%;
+    margin-top: 20px;
+    height: 35px;
+    border: 1px solid rgb(200, 49, 49);
+    background-color: rgb(200, 49, 49);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-login:hover {
+    background-color: rgb(180, 44, 44);
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+p a {
+    color: rgb(200, 49, 49);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: rgb(180, 44, 44);
+}

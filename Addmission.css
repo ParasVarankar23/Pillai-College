@@ -1,0 +1,22 @@
+.admission-container {
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.admission-image{
+    width:600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.campus-image {
+    width: 580px;
+    height: auto;
+    border-radius: 8px;
+}

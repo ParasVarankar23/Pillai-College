@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pcacs-header {
+    height: 120px;
+    width: auto;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.college {
+    width: 100%;
+    background-color: darkred;
+    padding: 8px;
+}
+
+.Tags {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+.Tags a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.Tags a:hover {
+    background-color: #A0522D;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column;
+}
+
+.dropdown-content a {
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-content-sub {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-submenu:hover .dropdown-content-sub {
+    display: block;
+}
+
+.dropdown-toggle {
+    background: darkred;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.dropdown-toggle span {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.dropdown-arrow {
+    margin-left: 5px;
+}
+
+.dropdown-toggle-academics-custom {
+    background: darkred;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding:  10px;
+    border-radius: 5px;
+    margin-top: 0%;
+}
+
+.dropdown-toggle-academics-custom span {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
